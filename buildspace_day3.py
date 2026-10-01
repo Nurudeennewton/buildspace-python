@@ -1,4 +1,4 @@
-'''#TASK!-ARRAY BASICS
+#TASK!-ARRAY BASICS
 languages=["Javascript", "Python", "Java", "C#", "Go", "PHP", "Ruby", "Typescript"]
 print(languages[0])
 print(languages[-1])
@@ -9,7 +9,7 @@ print(languages)
 languages.append("Javascript")
 languages.pop(4)
 print(languages)
-print(languages[12]) #list index of range
+ #list index of range
 
 #TASK2-STUDENT SCORE ANALYZER
 def analyze_scores(scores):
@@ -185,7 +185,7 @@ if len(matching_users) > 0:
     for user in matching_users:
         print(user)
 else:
-    print(f"No users found with the role '{role}'")'''
+    print(f"No users found with the role '{role}'")
 
 # TASK 5 - ARRAY TRANSFORMATION
 
